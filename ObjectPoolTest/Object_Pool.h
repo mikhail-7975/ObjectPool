@@ -2,6 +2,7 @@
 #include <new>
 #include <vector>
 
+
 template< class T>
 class ObjectPool final {
 	std::vector<bool> _elementStateVector;
